@@ -1,0 +1,60 @@
+# Node.js / JavaScript
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Docker
+*.dockerignore
+.docker-compose.override.yml
+docker-compose.override.yml
+
+# Environment files
+.env
+*.env
+sso-server/firebase-service-account.json
+sso-server/.env
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Build directories
+/dist
+/build
+/.next
+/coverage
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+*.log
+*.log.*
+
+# Temporary files
+*.bak
+*.swp
+*.tmp
+
+# Miscellaneous
+*.tgz
+*.tar.gz
+*.zip
+*.7z
+*.rar
+
+# Testing
+/coverage
+*.test.js
+*.spec.js
+
+# Yarn
+.yarn/
+.yarn-cache/
+.pnp.*
+.pnp.js
